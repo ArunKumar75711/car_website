@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>our car Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=YourEmbeddedFont:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'YourEmbeddedFont', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background: linear-gradient(to right, #4a90e2, #9013fe);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+        }
+        .sidebar {
+            width: 20%;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+        .main {
+            width: 60%;
+            padding: 20px;
+        }
+        .sidebar-right {
+            width: 20%;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+        .floated-img {
+            float: right;
+            margin-left: 20px;
+            max-width: 40%;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+          /* Media Queries */
+    @media (max-width: 768px) {
+        .sidebar, .sidebar-right {
+            width: 100%; /* Full width for mobile */
+        }
+        .main {
+            width: 100%; /* Full width for mobile */
+        }
+        nav ul li {
+            display: block; /* Stack navigation links vertically */
+            margin: 5px 0; /* Add margin between links */
+        }
+    }
+
+    @media (max-width: 480px) {
+        header, footer {
+            padding: 15px; /* Reduce padding */
+        }
+        .container {
+            flex-direction: column; /* Stack sidebar and main vertically */
+        }
+        .sidebar, .sidebar-right {
+            padding: 15px; /* Reduce sidebar padding */
+        }
+        .main {
+            padding: 15px; /* Reduce main content padding */
+        }
+    }
+</style>
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Our Website</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html" style="color: white;">Home</a></li>
+            <li><a href="about.html" style="color: white;">About</a></li>
+            <li><a href="collections.html" style="color: white;">collections</a></li>
+            <li><a href="contact.html" style="color: white;">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="sidebar">
+        <h2>don't miss these sites</h2>
+        <ul>
+                <img src="car1.png" alt="VB" style="width: 100px; height: auto;"  li><a href="https://www.google.com/search?q=rolls+royce+car&sca_esv=5c8e479236d2424c&rlz=1C1VIQF_enIN1134&sxsrf=ADLYWIJ-hcZPyImHhB-VyUnGBzvGeTupjQ%3A1730708349450&ei=fYMoZ4eaG8aW4-EPzabZ-QM&gs_ssp=eJzj4tTP1TdIyc3LMlJgNGB0YPDiL8rPySlWKMqvTE5VSE4sAgCSSwmZ&oq=roll&gs_lp=Egxnd3Mtd2l6LXNlcnAaAhgCIgRyb2xsKgIIATIREAAYgAQYkQIYsQMYyQMYigUyExAuGIAEGLEDGNEDGEMYxwEYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyCBAAGIAEGLEDMgsQABiABBiSAxiKBTILEAAYgAQYkgMYigUyDRAAGIAEGLEDGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyIhAuGIAEGLEDGNEDGEMYxwEYigUYlwUY3AQY3gQY4ATYAQFIiDFQsQNYhSRwAngBkAEEmAGoAaABnguqAQQwLjExuAEByAEA-AEBmAIJoAKRF6gCEcICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIOEAAYsAMY5AIY1gTYAQHCAhkQLhiABBiwAxjRAxhDGMcBGMgDGIoF2AEBwgITEC4YgAQYsAMYQxjIAxiKBdgBAcICChAAGIAEGLEDGA3CAgcQABiABBgNwgIHECMYJxjqAsICChAjGCcY6gIYiwPCAhMQABiABBhDGLQCGIoFGOoC2AEBwgIcEC4YgAQY0QMYQxi0AhjHARjIAxiKBRjqAtgBAcICFhAuGIAEGEMYtAIYyAMYigUY6gLYAQHCAgoQIxiABBgnGIoFwgIEECMYJ8ICCxAAGIAEGJECGIoFwgIOEC4YgAQYsQMY0QMYxwHCAgUQABiABMICERAuGIAEGLEDGNEDGIMBGMcBwgIOEAAYgAQYkQIYsQMYigXCAhAQLhiABBjRAxgUGIcCGMcBmAMK4gMFEgExIECIBgGQBhG6BgYIARABGAmSBwkyLjUuNi0xLjGgB79r&sclient=gws-wiz-serp">check it...</a></li> <br> <br> <br>
+
+            <img src="car2.png" alt="VB" style="width: 100px; height: auto;"  li><a href="https://www.hyundai.com/in/en/find-a-car/alcazar/highlights?utm_source=Google-Search&utm_medium=CPC&utm_campaign=Always_On_2024_Hyundai_Brand&utm_term=hyundai&gad_source=1&gclid=Cj0KCQiA_qG5BhDTARIsAA0UHSL2kFpW3Bw1ND3gtF1aIjIJB4_iRC8SGMAYpE9hztIRgmTwJJ9xrMkaAiY1EALw_wcB">check it...</a></li> <br> <br> <br>
+        
+        <img src="car3.png" alt="VB" style="width: 100px; height: auto;"  li><a href="https://kuntata.com/?gad_source=1&gclid=Cj0KCQiA_qG5BhDTARIsAA0UHSLjweAHBqzGA6NAC1wV-2rP0K3Zsjwtzp3lfDdu7kaCof1x5J_zOhkaAjqLEALw_wcB">check it...</a></li> <br> <br> <br>
+    
+    <img src="car4.png" alt="VB" style="width: 100px; height: auto;"  li><a href="https://www.justdial.com/Coimbatore/Car-Dealers-Maruti-Suzuki-in-Sulur/nct-10983546">check it...</a></li> <br> <br>  <br> <br>
+
+<img src="car5.png" alt="VB" style="width: 100px; height: auto;"  li><a href="https://www.cardekho.com/cardealers">check it...</a></li> <br> 
+</a>
+        </ul>
+
+        <p></p>
+
+        <br>
+        <li><a href="about.html" style="color: white;"> <span style="color: red;">content 1 </span></a></li> <BR></BR>
+            <li><a href="collections.html" style="color: white;"> <span style="color: red;">content 2</span></a></li><BR></BR>
+            <li><a href="contact.html" style="color: white;"> <span style="color: red;">Contact </span></a></li><BR></BR>
+    </div>
+
+    <div class="main">
+        <h2> The History Of Car</h2>
+        <img src="about.png" alt="">
+        <p>1886 – The first car is invented</p>
+        <p>
+            The automobile ended rural isolation and brought urban amenities—most important, better medical care and schools—to rural America (while paradoxically the farm tractor made the traditional family farm obsolete). The modern city with its surrounding industrial and residential suburbs is a product of the automobile and trucking.
+
+            The automobile changed the architecture of the typical American dwelling, altered the conception and composition of the urban neighborhood, and freed homemakers from the narrow confines of the home. No other historical force has so revolutionized the way Americans work, live, and play.
+            
+            In 1980, 87.2 percent of American households owned one or more motor vehicles, 51.5 percent owned more than one, and fully 95 percent of domestic car sales were for replacement. Americans have become truly auto-dependent.
+            
+            But though automobile ownership is virtually universal, the motor vehicle no longer acts as a progressive force for change. New forces—the electronic media, the laser, the computer, and the robot probably foremost among them—are charting the future. A period of American history that can appropriately be called the Automobile Age is melding into a new Age of Electronics.
+            
+            The Reader’s Companion to American History. Eric Foner and John A. Garraty, Editors. Copyright © 1991 by Houghton Mifflin Harcourt Publishing Company. All rights reserved.
+        </p>
+        <p>The 1901 Mercedes, designed by Wilhelm Maybach for Daimler Motoren Gesellschaft, deserves credit for being the first modern motorcar in all essentials.
+
+            Its thirty-five-horsepower engine weighed only fourteen pounds per horsepower, and it achieved a top speed of fifty-three miles per hour. By 1909, with the most integrated automobile factory in Europe, Daimler employed some seventeen hundred workers to produce fewer than a thousand cars per year.
+            
+            Nothing illustrates the superiority of European design better than the sharp contrast between this first Mercedes model and Ransom E. Olds‘ 1901-1906 one-cylinder, three-horsepower, tiller-steered, curved-dash Oldsmobile, which was merely a motorized horse buggy. But the Olds sold for only $650, putting it within reach of middle-class Americans, and the 1904 Olds output of 5,508 units surpassed any car production previously accomplished.
+            
+            The central problem of automotive technology over the first decade of the twentieth century would be reconciling the advanced design of the 1901 Mercedes with the moderate price and low operating expenses of the Olds. This would be overwhelmingly an American achievement.</p>
+    </div>
+
+    <div class="sidebar-right">
+        <h2></h2>
+        <p>Car history, or vehicle history, is a record of a car's maintenance, repairs, and other information that can help you make an informed decision about buying a used car: 
+            Vehicle details: The car's make, model, year, insurance, and loan information 
+            Car parts: Whether any parts have been replaced, repaired, or repainted 
+            Odometer reading: The car's mileage, including any tampering issues 
+            Accident history: Details about any accidents, damages, or flooding incidents 
+            Registration details: The car's registration details 
+            Loan history: The car's loan history 
+            Owner details: The car's owner details 
+            Fitness report validity: The validity of the car's fitness report 
+            Blacklist history: Whether the car is blacklisted 
+            Resale history: How many times the car has been resold 
+            Service history: The car's service history 
+            You can check a car's history online by providing the car's registration number. One such service is carVertical, which claims to be the largest online database of used vehicle records. </p>
+        <p>Nicolas Joseph Cugnot of France built what is said to be the first automobile in 1769. While his invention is recognized by the British Royal Automobile Club and the Automobile Club de France as being the first, many history books say that the automobile was invented by either Gottlieb Daimler or Karl Benz.</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Your Company | All rights reserved &bull; &hearts;</p>
+</footer>
+
+</body>
+</html>

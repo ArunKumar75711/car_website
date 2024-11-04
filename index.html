@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>our car Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+            background: linear-gradient(to right, #4a90e2, #9013fe);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    margin: 0%;
+    padding: 0%;
+    background: white;
+}
+
+.content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.left-column {
+    flex: 2; 
+    padding: 20px;
+    background: #e2e2e2;
+    margin-right: 20px;
+}
+
+.right-column {
+    flex: 3; 
+    padding: 20px;
+    background: #d1d1d1;
+}
+
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    background: #ccc;
+}
+nav {
+            margin: 20px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        hover.nav ul{
+            background-color:palevioletred;
+        }
+
+        footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .floated-image {
+    float: left; 
+    margin-right: 15px; 
+    margin-bottom: 10px; 
+}
+ /* Media Queries for responsiveness */
+ @media (max-width: 768px) {
+            .content {
+                flex-direction: column; /* Stack columns on small screens */
+            }
+            .left-column, .right-column, .sidebar {
+                margin-right: 0; /* Remove right margin */
+                margin-bottom: 20px; /* Add margin below each column */
+                width: 100%; /* Full width for columns */
+            }
+            .sidebar {
+                width: 100%; /* Sidebar takes full width */
+            }
+        }
+
+        @media (max-width: 480px) {
+            nav ul li {
+                display: block; /* Stack nav items on small screens */
+                margin-bottom: 10px; /* Space between items */
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <h1> Welcome  to Our Website</h1> 
+    <nav>
+        <ul>
+            <li><a href="index.html" style="color: white;">Home</a></li>
+            <li><a href="about.html" style="color: white;">About</a></li>
+            <li><a href="collections.html" style="color: white;">collections</a></li>
+            <li><a href="contact.html" style="color: white;">Contact</a></li>
+        </ul>
+    </nav>
+        </header>
+        <div class="content">
+            <div class="left-column">
+                <h2>The history of car's</h2>
+                <img src="home.png" alt="Home" class="floated-image">
+                <p>The automobile was first invented and perfected in Germany and France in the late 1800s, though Americans quickly came to dominate the automotive industry in the first half of the twentieth century. Henry Ford innovated mass-production techniques that became standard, and Ford, General Motors and Chrysler emerged as the “Big Three” auto companies by the 1920s. Manufacturers funneled their resources to the military during World War II, and afterward automobile production in Europe and Japan soared to meet growing demand. Once vital to the expansion of American urban centers, the industry had become a shared global enterprise with the rise of Japan as the leading automaker by 1980..</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at urna ut urna fermentum tempor.</p>
+            </div>
+            <div class="right-column">
+                <h2></h2>
+                <p>The 1901 Mercedes, designed by Wilhelm Maybach for Daimler Motoren Gesellschaft, deserves credit for being the first modern motorcar in all essentials.
+
+                    Its thirty-five-horsepower engine weighed only fourteen pounds per horsepower, and it achieved a top speed of fifty-three miles per hour. By 1909, with the most integrated automobile factory in Europe, Daimler employed some seventeen hundred workers to produce fewer than a thousand cars per year.
+                    
+                    Nothing illustrates the superiority of European design better than the sharp contrast between this first Mercedes model and Ransom E. Olds‘ 1901-1906 one-cylinder, three-horsepower, tiller-steered, curved-dash Oldsmobile, which was merely a motorized horse buggy. But the Olds sold for only $650, putting it within reach of middle-class Americans, and the 1904 Olds output of 5,508 units surpassed any car production previously accomplished.
+                    
+                    The central problem of automotive technology over the first decade of the twentieth century would be reconciling the advanced design of the 1901 Mercedes with the moderate price and low operating expenses of the Olds. This would be overwhelmingly an American achievement.</p>
+                <p>Although the automobile was to have its greatest social and economic impact in the United States, it was initially perfected in Germany and France toward the end of the nineteenth century by such men as Gottlieb Daimler, Karl Benz, Nicolaus Otto and Emile Levassor.</p>
+                <p>The number of active automobile manufacturers dropped from 253 in 1908 to only 44 in 1929, with about 80 percent of the industry’s output accounted for by Ford, General Motors, and Chrysler, formed from Maxwell in 1925 by Walter P. Chrysler.</p>
+                
+            </div>
+            <aside class="sidebar">
+                <h2>to learn more</h2>
+                <li><a href="https://www.hyundai.com/in/en/find-a-car/alcazar/highlights?utm_source=Google-Search&utm_medium=CPC&utm_campaign=Always_On_2024_Hyundai_Brand&utm_term=hyundai&gad_source=1&gclid=Cj0KCQiA_qG5BhDTARIsAA0UHSK8T2X5B7rHwfliLojw-nRJYYDR1JWAOuE9dHwSgujxXryDorSnjh0aAim9EALw_wcB">Hyundai. ...</a></li>
+                <li><a href="https://kuntata.com/?gad_source=1&gclid=Cj0KCQiA_qG5BhDTARIsAA0UHSL9KiZNsuvd42Gpu-h7vJMQH03ChyO02O2Sbjnxv-wg21WM0kJkQm8aAoMIEALw_wcB">Tata Motors. ...</a></li>
+                <li><a href="https://www.cardekho.com/cardealers">Mahindra. ...</a></li>
+                <li><a href="https://www.hondacarindia.com/">Honda. ...</a></li>
+                <li><a href="https://www.skoda-auto.co.in/">Skoda. ...</a></li>
+
+                <p></p>
+                <p></p>
+                <br>
+             
+               <li><a href="about.html" style="color: white;"> <span style="color: red;">content 1 </span></a></li><BR></BR>
+            <li><a href="collections.html" style="color: white;"> <span style="color: red;">content 2</span></a></li><BR></BR>
+            <li><a href="contact.html" style="color: white;"> <span style="color: red;">Contact </span></a></li> <BR></BR>
+            </aside>
+        </div>
+        <footer>
+            <p>&copy; 2024 My Website &bull; &hearts;</p>
+        </footer>
+    </div>
+</body>
+</html>
